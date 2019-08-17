@@ -2,7 +2,7 @@
     border: 1px solid gray;
     border-radius: 5px;
     background-color: darkred;
-    height: 40rem;
+    height: 46rem;
     width: 70%;
     margin: auto;
 }
@@ -39,16 +39,34 @@
     flex-direction: row;
     justify-content: space-between;
     width: 65%;
-    margin: 1rem 0 0 2rem;
+    margin: 1.5rem 0 0 2rem;
 
 }
 
 .special-button {
     border-radius: 10rem;
-    background-color: steelblue;
-    width: 25%;
+    background-color: dodgerblue;
+    width: 30%;
     height: 5rem;
     text-align: center;
     color: white;
     font-size: 3.5rem;
+    padding-top: .5rem;
+}
+
+.operators-container {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    right: 5%;
+}
+
+.operator-button {
+    background-color: steelblue;
+    color: white;
+    border-radius: 10rem;
+    height: 6rem;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: .5rem;
 }
