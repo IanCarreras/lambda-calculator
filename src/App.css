@@ -1,0 +1,31 @@
+.container {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: darkred;
+    height: 40rem;
+    width: 70%;
+    margin: auto;
+}
+
+.logo-container {
+    position: relative;
+    top: 2%;
+    left: 2%;
+}
+
+.App {
+    position: relative;
+    top: 3%;
+    left: 2%;
+    height: 85%;
+    width: 95%;
+
+}
+
+.display {
+    border-radius: 5rem;
+    background-color: black;
+    height: 5rem;
+    width: 90%;
+    margin: auto;
+}
