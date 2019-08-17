@@ -10,7 +10,6 @@ import {operators} from '../../../data.js'
 const Operators = () => {
   // STEP 2 - add the imported data to state
   const [operatorsState] = useState(operators)
-  console.log(operatorsState)
 
   return (
     <div className='operators-container'>
