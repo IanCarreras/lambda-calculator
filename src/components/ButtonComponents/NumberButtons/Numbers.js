@@ -6,7 +6,7 @@ import React, {useState} from "react";
 import {numbers} from '../../../data.js'
 import NumberButton from "./NumberButton.js";
 
-const Numbers = () => {
+const Numbers = (props) => {
   // STEP 2 - add the imported data to state
   const [numberState] = useState(numbers)
   return (
@@ -15,7 +15,14 @@ const Numbers = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {numberState.map((number, indx) => {
-         return indx !== 9 ? <NumberButton key={indx} symbol={number} /> : <NumberButton key={indx} symbol={number} name='zero'/> 
+         return indx !== 9 
+         ? <NumberButton 
+              key={indx} 
+              symbol={number}/> 
+         : <NumberButton 
+              key={indx} 
+              symbol={number} 
+              name='zero'/> 
        })}
     </div>
   );
