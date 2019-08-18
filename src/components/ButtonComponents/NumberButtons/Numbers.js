@@ -18,11 +18,13 @@ const Numbers = (props) => {
          return indx !== 9 
          ? <NumberButton 
               key={indx} 
-              symbol={number}/> 
+              symbol={number}
+              setDisplayResult={props.setDisplayResult} /> 
          : <NumberButton 
               key={indx} 
               symbol={number} 
-              name='zero'/> 
+              name='zero' 
+              setDisplayResult={props.setDisplayResult} /> 
        })}
     </div>
   );
