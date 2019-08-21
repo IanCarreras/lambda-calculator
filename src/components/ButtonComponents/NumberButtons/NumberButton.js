@@ -3,7 +3,7 @@ import React from "react";
 const NumberButton = (props) => {
   const classes = `number-button ${props.name}`
   function handleChange() {
-    props.setDisplayResult(props.symbol)
+    return props.setDisplayResult([...props.displayResult, props.symbol])
   }
   return (
     <div className={classes} onClick={() => handleChange()}>

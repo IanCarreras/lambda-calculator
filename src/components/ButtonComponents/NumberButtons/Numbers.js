@@ -19,12 +19,14 @@ const Numbers = (props) => {
          ? <NumberButton 
               key={indx} 
               symbol={number}
-              setDisplayResult={props.setDisplayResult} /> 
+              setDisplayResult={props.setDisplayResult}
+              displayResult={props.displayResult} /> 
          : <NumberButton 
               key={indx} 
               symbol={number} 
               name='zero' 
-              setDisplayResult={props.setDisplayResult} /> 
+              setDisplayResult={props.setDisplayResult}
+              displayResult={props.displayResult} /> 
        })}
     </div>
   );
