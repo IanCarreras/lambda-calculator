@@ -24,7 +24,9 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display display={displayResult} />
-        <Specials setDisplayResult={setDisplayResult} />
+        <Specials 
+          displayResult={displayResult} 
+          setDisplayResult={setDisplayResult} />
         <Operators 
           displayResult={displayResult} 
           setDisplayResult={setDisplayResult}/>
