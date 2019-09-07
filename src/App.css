@@ -1,0 +1,104 @@
+.container {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: darkred;
+    height: 46rem;
+    width: 70%;
+    margin: auto;
+}
+
+.logo-container {
+    position: relative;
+    top: 2%;
+    left: 2%;
+}
+
+.App {
+    position: relative;
+    top: 3%;
+    left: 2%;
+    height: 85%;
+    width: 95%;
+
+}
+
+.display {
+    border-radius: 5rem;
+    background-color: black;
+    height: 5rem;
+    width: 90%;
+    margin: auto;
+    color: white;
+    text-align: right;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.specials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    margin: 1.5rem 0 0 2rem;
+
+}
+
+.special-button {
+    border-radius: 10rem;
+    background-color: dodgerblue;
+    width: 30%;
+    height: 5rem;
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    padding-top: .5rem;
+}
+.special-button:hover {
+    cursor: pointer;
+}
+
+.operators-container {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    right: 5%;
+}
+
+.operator-button {
+    background-color: steelblue;
+    color: white;
+    border-radius: 10rem;
+    height: 6rem;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: .5rem;
+}
+.operator-button:hover {
+    cursor: pointer;
+}
+
+.numbers-container {
+    width: 70%;
+    height: 25rem;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    margin-left: .2rem;
+}
+
+.number-button {
+    background-color: navy;
+    height: 6rem;
+    width: 30%;
+    color: white;
+    border-radius: 10rem;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-left: .5rem;
+}
+.number-button:hover {
+    cursor: pointer;
+}
+.zero {
+    width: 61%;
+}
